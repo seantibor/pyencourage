@@ -1,4 +1,4 @@
-"Setup script for the pyjokes package"
+"Setup script for the pyencourage package"
 
 import sys
 from setuptools import setup, find_packages
@@ -11,7 +11,7 @@ def read(fname):
 
 def main():
     "Executes setup when this script is the top-level"
-    import pyjokes as app
+    import pyencourage as app
 
     setup(
         name=app.__project__,

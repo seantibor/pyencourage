@@ -2,7 +2,7 @@ import sys
 
 
 def main():
-    print('Did you mean pyjoke?')
+    print('Did you mean pyencourage?')
     return 1
 
 if __name__ == '__main__':

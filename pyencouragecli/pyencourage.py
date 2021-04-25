@@ -1,27 +1,27 @@
 import os
 import argparse
-from pyjokes import pyjokes
+from pyencourage import pyencourage
 
 
 def create_argparser():
     parser = argparse.ArgumentParser(
-        description='One line jokes for programmers (jokes as a service)'
+        description='One line encouragements for programmers (encouragement as a service)'
     )
 
     parser.add_argument(
         '-c', '--category',
         dest='category',
-        choices=['neutral', 'chuck', 'all', 'twister'],
+        choices=['neutral', 'all', ],
         default='neutral',
-        help='Joke category.'
+        help='Encouragement category.'
     )
 
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'gl', 'eu', 'it'],
+        choices=['en'],
         default='en',
-        help='Joke language.'
+        help='Encouragement language.'
     )
 
     return parser
@@ -38,15 +38,15 @@ def main():
         exit(-1)
 
     try:
-        joke = pyjokes.get_joke(language=args.language, category=args.category)
-    except pyjokes.LanguageNotFoundError:
-        print('No such language %s' % args.language)
+        encouragement = pyencourage.get_encouragement(language=args.language, category=args.category)
+    except pyencourage.LanguageNotFoundError:
+        print(f'No such language {args.language}')
         exit(-1)
-    except pyjokes.CategoryNotFoundError:
-        print('No such category %s' % args.category)
+    except pyencourage.CategoryNotFoundError:
+        print(f'No such category {args.category}')
         exit(-1)
 
-    print(joke)
+    print(encouragement)
 
 if __name__ == '__main__':
     main()

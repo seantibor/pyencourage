@@ -1,60 +1,32 @@
 =======
-pyjokes
+pyencourage
 =======
 
-.. image:: https://badge.fury.io/py/pyjokes.svg
-    :target: https://badge.fury.io/py/pyjokes
-.. image:: https://travis-ci.org/pyjokes/pyjokes.svg
-    :target: https://travis-ci.org/pyjokes/pyjokes
-.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master
-
-One line jokes for programmers (jokes as a service)
+One line encouragement for programmers (encouragement as a service)
 
 Installation
 ============
 
-Install the `pyjokes` module with pip.
+Install the `pyencourage` module with pip.
 
 See the `documentation`_ for installation instructions.
 
 Usage
 =====
 
-Once installed, simply call `pyjoke` from the command line or add it to your
+Once installed, simply call `pyencourage` from the command line or add it to your
 .bashrc file to see a joke every time you open a terminal.
 
-Use the `-c` flag to get jokes from a specific category. Options::
+You can also access the encouragement in your own project by importing `pyencourage` and
+using the functions `get_encouragement` and `get_encouragements`.
 
-    -c neutral [default] (neutral geek jokes)
-    -c chuck (Chuck Norris geek jokes)
-    -c all (all jokes)
-
-You can also access the jokes in your own project by importing `pyjokes` and
-using the functions `get_joke` and `get_jokes`.
-
-Documentation is available at https://pyjok.es/
 
 Contributors
 ============
 
 Development:
 
-* `Ben Nuttall`_
-* `Alex Savio`_
-* `Borja Ayerdi`_
-* `Oier Etxaniz`_
-
-Jokes:
-
-* `Luke Wren`_
-* `Sarah Bird`_
-* `Yash Mehrotra`_
-* `Marc Kirkwood`_
-* `Gregory Parker`_
-* `Martin O'Hanlon`_
-* `Graham Markall`_
-* `Andreas Reinle`_
+* `Sean Tibor`
 
 
 Contributing
@@ -64,16 +36,11 @@ Contributing
 * The project source code is hosted on `GitHub`_
 * Please use `GitHub issues`_ to submit bugs and report issues
 * Feel free to `contribute`_ to the code
-* Feel free to contribute jokes (via pull request or `proposal issue`_)
+* Feel free to contribute encouragements (via pull request)
 * See the `contributing policy`_ on GitHub
 
-Pyjokes Society
-===============
 
-This project was founded at `PySS 2014`_ and is directed by the
-`Pyjokes Society`_.
-
-
+Special thanks to everyone at the PyJokes project.
 .. _documentation: http://pyjok.es/install/
 .. _http://pyjok.es: http://pyjok.es/
 .. _Ben Nuttall: https://github.com/bennuttall
@@ -88,11 +55,10 @@ This project was founded at `PySS 2014`_ and is directed by the
 .. _Martin O'Hanlon: https://github.com/martinohanlon
 .. _Graham Markall: https://github.com/gmarkall
 .. _Andreas Reinle: https://github.com/gras64
+
+Links.
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
-.. _GitHub: https://github.com/pyjokes/pyjokes
-.. _GitHub Issues: https://github.com/pyjokes/pyjokes/issues
-.. _contribute: https://github.com/pyjokes/pyjokes/tree/master/CONTRIBUTING.md
-.. _proposal issue: https://github.com/pyjokes/pyjokes/issues/10
-.. _contributing policy: https://github.com/pyjokes/pyjokes/tree/master/CONTRIBUTING.md
-.. _PySS 2014: http://www.pyss.org/
-.. _Pyjokes Society: http://pyjok.es/society/
+.. _GitHub: https://github.com/seantibor/pyencourage
+.. _GitHub Issues: https://github.com/seantibor/pyencourage/issues
+.. _contribute: https://github.com/seantibor/pyencourage/tree/master/CONTRIBUTING.md
+.. _contributing policy: https://github.com/seantibor/pyencourage/tree/master/CONTRIBUTING.md

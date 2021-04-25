@@ -1,34 +1,31 @@
 # Contributing
 
-## Jokes
+## Encouragements
 
-New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10)
-or via pull request.
+New encouragements should be proposed via pull request.
 
 New languages are welcome and should follow the existing format.
 
-New categories should be proposed in a [GitHub issue](https://github.com/pyjokes/pyjokes/issues).
+New categories should be proposed in a [GitHub issue](https://github.com/seantibor/pyencourage/issues).
 
-### Joke policy
+### Encouragement policy
 
-- Maximum joke length: 140 characters
+- Maximum encouragement length: 140 characters
+- Encouragements should be positive and uplifting
 - Gender neutrality (mix of he/she/they)
 - No assumption of gender or sexuality
 - No racism
 - No sexism
-- No political jokes
-- No jokes about physical or mental ability
-- No jokes about physical appearances
-- No jokes about mental illnesses
+- No political jokes or statements
 
 ## Technical Issues
 
-Please report bugs and other issues as [GitHub issues](https://github.com/pyjokes/pyjokes/issues)
+Please report bugs and other issues as [GitHub issues](https://github.com/seantibor/pyencourage/issues)
 ensuring to give as much detail about your problem as possible.
 
 ## Complaints
 
-If you have a problem with the content of the jokes, please raise a [GitHub issue](https://github.com/pyjokes/pyjokes/issues)
+If you have a problem with the content of the encouragements, please raise a [GitHub issue](https://github.com/pyencourage/pyencourage/issues)
 for us to discuss.
 
 ## Development Policy
