@@ -1,4 +1,4 @@
-# Install pyjokes
+# Install pyencourage
 
 ## pip
 

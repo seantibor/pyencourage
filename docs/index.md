@@ -16,7 +16,7 @@ See the [install](install.md) page for information on installing on different pl
 
 ### Command line
 
-Run `pyencourage` at the command line to get a random joke:
+Run `pyencourage` at the command line to get a random encouragement:
 
 ```
 $ pyencourage
@@ -35,7 +35,7 @@ print(pyencourage.get_encouragement())
 
 See the [API reference](api.md) for full documentation.
 
-## Proposal of new jokes
+## Proposal of new encouragements
 
 New encouragements should be proposed via pull request.
 

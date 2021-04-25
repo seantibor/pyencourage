@@ -15,7 +15,7 @@ Usage
 =====
 
 Once installed, simply call `pyencourage` from the command line or add it to your
-.bashrc file to see a joke every time you open a terminal.
+.bashrc file to see an encouragement every time you open a terminal.
 
 You can also access the encouragement in your own project by importing `pyencourage` and
 using the functions `get_encouragement` and `get_encouragements`.

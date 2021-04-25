@@ -39,7 +39,7 @@ def test_get_encouragement_in_language_with_category_raises():
             language='en', category=category
         )
 
-def test_all_jokes_are_funny():
+def test_all_encouragements_are_good():
     for language in languages:
         encouragements = get_encouragement(language=language, category='all')
         for encouragement in encouragements:

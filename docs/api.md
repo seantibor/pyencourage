@@ -6,7 +6,7 @@ Import the pyencourage module to access `pyencourage` in any Python application:
 import pyencourage
 ```
 
-## pyjokes.get_encouragement()
+## pyencourage.get_encouragement()
 
 Returns a random encouragement from the given category in the given language.
 
@@ -21,7 +21,7 @@ If the `language` value provided is not available, a `LanguageNotFoundError` exc
 
 If the `category` value provided is not available, a `CategoryNotFoundError` exception is raised.
 
-## pyjokes.get_encouragements()
+## pyencourage.get_encouragements()
 
 Returns a list of encouragements from the given category in the given language.
 
@@ -38,7 +38,7 @@ If the `category` value provided is not available, a `CategoryNotFoundError` exc
 
 ## Supported languages
 
-These are all the languages supported by pyjokes:
+These are all the languages supported by pyencourage:
 
 | Language   | Value | 
 | ---------- | ----- | 
