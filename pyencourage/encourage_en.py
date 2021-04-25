@@ -34,7 +34,7 @@ neutral = ["Hello, World!",
     "Simplicity is the ultimate sophistication.",
 ]
 
-positivity = []
+positivity = ["You got this!", "You can do this. Just keep going!"]
 
 zen = [
     "Beautiful is better than ugly.",

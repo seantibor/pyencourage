@@ -64,7 +64,7 @@ Jokes:
 * `Graham Markall`_
 * `Andreas Reinle`_
 
-.. _documentation: http://pyjok.es/install/
+.. _documentation: http://github.com/sean
 .. _http://pyjok.es: http://pyjok.es/
 .. _PyJokes: http://pyjok.es/
 .. _Ben Nuttall: https://github.com/bennuttall

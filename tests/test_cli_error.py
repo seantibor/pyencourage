@@ -3,16 +3,16 @@ import subprocess
 from subprocess import PIPE
 
 
-def test_pyjokes_call_exception():
+def test_pyencourage_call_exception():
     with pytest.raises(subprocess.CalledProcessError):
-        subprocess.check_call('pyjokes')
+        subprocess.check_call('pyencouragement')
 
 
-def test_pyjokes_call_output():
+def test_pyencourage_call_output():
     try:
-        p = subprocess.Popen('pyjokes', stdin=PIPE, stdout=PIPE, stderr=PIPE)
+        p = subprocess.Popen('pyencouragement', stdin=PIPE, stdout=PIPE, stderr=PIPE)
     except:
         out, err = p.communicate()
-        assert out == b'Did you mean pyjoke?'
+        assert out == b'Did you mean pyencourage?'
         assert p.returncode == 1
         pass
