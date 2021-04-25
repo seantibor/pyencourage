@@ -3,22 +3,18 @@
 ## pip
 
 ```bash
-pip3 install pyjokes
+pip3 install pyencourage
 ```
 
 or
 
 ```bash
-pip install pyjokes
+pip install pyencourage
 ```
 
 ## Linux & Raspberry Pi
 
 ```bash
 sudo apt install python3-pip
-sudo pip3 install pyjokes
+sudo pip3 install pyencourage
 ```
-
-pyjokes is also packaged for [Debian](https://packages.debian.org/source/buster/pyjokes)
-and [Ubuntu](https://packages.ubuntu.com/source/bionic/pyjokes), but this
-version may be older than what is available from PyPI.

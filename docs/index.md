@@ -1,15 +1,13 @@
-# pyjokes
+# pyencourage
 
-One line jokes for programmers (jokes as a service)
-
-![pyjokes](images/pyjokes.png)
+One line encouragement for programmers (encouragement as a service)
 
 ## Install
 
 Install with pip:
 
 ```bash
-pip install pyjokes
+pip install pyencouragement
 ```
 
 See the [install](install.md) page for information on installing on different platforms.
@@ -18,32 +16,30 @@ See the [install](install.md) page for information on installing on different pl
 
 ### Command line
 
-Run `pyjoke` at the command line to get a random joke:
+Run `pyencourage` at the command line to get a random joke:
 
 ```
-$ pyjoke
-Why did the programmer quit his job? Because he didn't get arrays.
+$ pyencourage
+Compliment and amplify the good things with code.
 ```
 
 ### Python
 
-Import the `pyjokes` module in a Python file and use the `get_joke` function to easily drop a random joke into your application:
+Import the `pyencourage` module in a Python file and use the `get_encouragement` function to easily drop a random encouragement into your application:
 
 ```python
-import pyjokes
+import pyencourage
 
-print(pyjokes.get_joke())
+print(pyencourage.get_encouragement())
 ```
 
 See the [API reference](api.md) for full documentation.
 
 ## Proposal of new jokes
 
-New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10) or via pull request.
+New encouragements should be proposed via pull request.
 
 ## Reference
 
-- [GitHub](https://github.com/pyjokes/pyjokes)
-- [Wiki](https://github.com/pyjokes/pyjokes/wiki)
-- [PyPI](https://pypi.org/project/pyjokes/)
-- [Twitter](https://twitter.com/pyjokes_bot)
+- [GitHub](https://github.com/seantibor/pyencourage)
+- [PyPI](https://pypi.org/project/pyencourage/)

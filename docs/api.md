@@ -1,19 +1,19 @@
 # API Reference
 
-Import the pyjokes module to access `pyjokes` in any Python application:
+Import the pyencourage module to access `pyencourage` in any Python application:
 
 ```python
-import pyjokes
+import pyencourage
 ```
 
-## pyjokes.get_joke()
+## pyjokes.get_encouragement()
 
-Returns a random joke from the given category in the given language.
+Returns a random encouragement from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl' , 'eu', 'it'| 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| language   | str   | 'en' | 'en' |
+| category   | str   | 'neutral', 'zen', 'positivity', 'advice', 'all' | 'neutral' |
 
 Return type: str
 
@@ -21,14 +21,14 @@ If the `language` value provided is not available, a `LanguageNotFoundError` exc
 
 If the `category` value provided is not available, a `CategoryNotFoundError` exception is raised.
 
-## pyjokes.get_jokes()
+## pyjokes.get_encouragements()
 
-Returns a list of jokes from the given category in the given language.
+Returns a list of encouragements from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it' | 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| language   | str   | 'en' | 'en' |
+| category   | str   | 'neutral', 'zen', 'positivity', 'advice', 'all' | 'neutral' |
 
 Return type: list
 
@@ -42,11 +42,6 @@ These are all the languages supported by pyjokes:
 
 | Language   | Value | 
 | ---------- | ----- | 
-| Basque     | 'eu'  | 
 | English    | 'en'  | 
-| Galician   | 'gl'  | 
-| German     | 'de'  | 
-| Italian    | 'it'  |
-| Spanish    | 'es'  | 
 
-To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
+To add support for another language, please see the [contributing page](https://github.com/seantibor/pyencourage/blob/master/CONTRIBUTING.md).

@@ -22,7 +22,7 @@ def get_encouragements(language='en', category='neutral'):
     Parameters
     ----------
     category: str
-        Choices: 'neutral', 'all'
+        Choices: 'neutral', 'zen', 'positivity', 'advice', 'all'
     lang: str
         Choices: 'en'
 
