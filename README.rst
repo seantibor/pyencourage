@@ -1,6 +1,6 @@
-=======
+===========
 pyencourage
-=======
+===========
 
 One line encouragement for programmers (encouragement as a service)
 
@@ -28,7 +28,6 @@ Development:
 
 * `Sean Tibor`
 
-
 Contributing
 ============
 
@@ -39,10 +38,35 @@ Contributing
 * Feel free to contribute encouragements (via pull request)
 * See the `contributing policy`_ on GitHub
 
+Thank You
+=========
 
-Special thanks to everyone at the PyJokes project.
+Special thanks to everyone at the PyJokes_ project.
+
+PyJokes Contributors:
+---------------------
+
+Development:
+
+* `Ben Nuttall`_
+* `Alex Savio`_
+* `Borja Ayerdi`_
+* `Oier Etxaniz`_
+
+Jokes:
+
+* `Luke Wren`_
+* `Sarah Bird`_
+* `Yash Mehrotra`_
+* `Marc Kirkwood`_
+* `Gregory Parker`_
+* `Martin O'Hanlon`_
+* `Graham Markall`_
+* `Andreas Reinle`_
+
 .. _documentation: http://pyjok.es/install/
 .. _http://pyjok.es: http://pyjok.es/
+.. _PyJokes: http://pyjok.es/
 .. _Ben Nuttall: https://github.com/bennuttall
 .. _Alex Savio: https://github.com/alexsavio
 .. _Borja Ayerdi: https://github.com/borjaayerdi
@@ -55,8 +79,6 @@ Special thanks to everyone at the PyJokes project.
 .. _Martin O'Hanlon: https://github.com/martinohanlon
 .. _Graham Markall: https://github.com/gmarkall
 .. _Andreas Reinle: https://github.com/gras64
-
-Links.
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
 .. _GitHub: https://github.com/seantibor/pyencourage
 .. _GitHub Issues: https://github.com/seantibor/pyencourage/issues
