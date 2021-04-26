@@ -31,6 +31,7 @@ neutral = ["Hello, World!",
     "Algorithm: a word used by programmers when they don't want to explain what they did.",
     "Programmers count from zero.",
     "Simplicity is the ultimate sophistication.",
+    "Be brave enough to suck at something new."
 ]
 
 positivity = ["You got this!", "You can do this. Just keep going!"]
