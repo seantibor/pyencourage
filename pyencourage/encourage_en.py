@@ -31,10 +31,16 @@ neutral = ["Hello, World!",
     "Algorithm: a word used by programmers when they don't want to explain what they did.",
     "Programmers count from zero.",
     "Simplicity is the ultimate sophistication.",
-    "Be brave enough to suck at something new."
+    "Pyencourage is written in pure Python. It's not the \"best\" code and that is beautiful.",
+    "Be brave enough to suck at something new!"
 ]
 
-positivity = ["You got this!", "You can do this. Just keep going!"]
+positivity = ["You got this!", 
+              "You can do this. Just keep going!",
+              "If you have to start over every day, eventually that will look like consistency.",
+              "Never underestimate the power of yet. Saying \"I can't code this... yet.\" is powerful.",
+              "I have imposter syndrome too. You are not alone.",
+              "Let the tough things make you tougher."]
 
 zen = [
     "Beautiful is better than ugly.",
@@ -52,6 +58,7 @@ zen = [
     "If the implementation is easy to explain, it may be a good idea.",
     "Namespaces are one honking great idea -- let's do more of those!",
     "Wisest are they that know they know nothing.",
+    "Experts are just really good at being beginners."
 ]
 
 advice = [
