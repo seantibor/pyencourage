@@ -5,7 +5,7 @@ from .pyencourage import get_encouragement, get_encouragements
 
 
 __project__      = 'pyencourage'
-__version__      = '0.1.3'
+__version__      = '0.1.4'
 __keywords__     = ['pyencourage', 'pyencouragement', 'encouragement', 'encourage']
 __author__       = 'Sean Tibor'
 __author_email__ = 'sean.tibor@gmail.com'
